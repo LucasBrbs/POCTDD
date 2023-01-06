@@ -16,6 +16,7 @@
 		FC511DB629671CB100424F9B /* POCTDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DB529671CB100424F9B /* POCTDDTests.swift */; };
 		FC511DC029671CB100424F9B /* POCTDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DBF29671CB100424F9B /* POCTDDUITests.swift */; };
 		FC511DC229671CB100424F9B /* POCTDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DC129671CB100424F9B /* POCTDDUITestsLaunchTests.swift */; };
+		FC511DCF29687A8200424F9B /* MoneyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DCE29687A8200424F9B /* MoneyFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FC511DBB29671CB100424F9B /* POCTDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POCTDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC511DBF29671CB100424F9B /* POCTDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCTDDUITests.swift; sourceTree = "<group>"; };
 		FC511DC129671CB100424F9B /* POCTDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCTDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC511DCE29687A8200424F9B /* MoneyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FC511DA729671CB000424F9B /* Assets.xcassets */,
 				FC511DA929671CB000424F9B /* LaunchScreen.storyboard */,
 				FC511DAC29671CB000424F9B /* Info.plist */,
+				FC511DCE29687A8200424F9B /* MoneyFormatter.swift */,
 			);
 			path = POCTDD;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				FC511DA329671CAF00424F9B /* ViewController.swift in Sources */,
 				FC511D9F29671CAF00424F9B /* AppDelegate.swift in Sources */,
 				FC511DA129671CAF00424F9B /* SceneDelegate.swift in Sources */,
+				FC511DCF29687A8200424F9B /* MoneyFormatter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
