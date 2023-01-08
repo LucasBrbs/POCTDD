@@ -31,4 +31,18 @@ final class POCTDDTests: XCTestCase {
         XCTAssertEqual(Decimal(string : "1.111")?.moneyString, "1,11")
 //        XCTAssertEqual(formatter.string(decimal: Decimal(string : "1.111")!), "1,11")
     }
+
+    let structChamada = dobrarStruct()
+
+    func testdobrarTeste(){
+        XCTAssertEqual(structChamada.dobrar(a: Int(2)), 4)
+        XCTAssertEqual(structChamada.dobrar(a: Int(4)), 8)
+        XCTAssertEqual(structChamada.dobrar(a: Int(6)), 12)
+        XCTAssertEqual(structChamada.dobrar(a: Int(10)), 20)
+    }
+
+    let tdd = tddStruct()
+    func testDiminuirPor2(){
+        XCTAssertEqual(tdd.diminuir2(b:Int(3)), 1)
+    }
 }

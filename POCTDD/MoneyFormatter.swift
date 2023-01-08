@@ -32,3 +32,18 @@ extension Decimal {
 //    }
 //
 //}
+
+
+struct dobrarStruct {
+    func dobrar(a:Int) -> Int {
+        return a*2
+    }
+}
+
+
+struct tddStruct {
+    func diminuir2(b:Int) ->Int{
+        return b-2
+    }
+}
+
