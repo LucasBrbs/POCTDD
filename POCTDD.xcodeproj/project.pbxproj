@@ -17,6 +17,8 @@
 		FC511DC029671CB100424F9B /* POCTDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DBF29671CB100424F9B /* POCTDDUITests.swift */; };
 		FC511DC229671CB100424F9B /* POCTDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DC129671CB100424F9B /* POCTDDUITestsLaunchTests.swift */; };
 		FC511DCF29687A8200424F9B /* MoneyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DCE29687A8200424F9B /* MoneyFormatter.swift */; };
+		FC511DD1296C78CA00424F9B /* BudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DD0296C78CA00424F9B /* BudgetTests.swift */; };
+		FC511DD3296C79B500424F9B /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DD2296C79B500424F9B /* Budget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		FC511DBF29671CB100424F9B /* POCTDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCTDDUITests.swift; sourceTree = "<group>"; };
 		FC511DC129671CB100424F9B /* POCTDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POCTDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FC511DCE29687A8200424F9B /* MoneyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFormatter.swift; sourceTree = "<group>"; };
+		FC511DD0296C78CA00424F9B /* BudgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTests.swift; sourceTree = "<group>"; };
+		FC511DD2296C79B500424F9B /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 				FC511DA929671CB000424F9B /* LaunchScreen.storyboard */,
 				FC511DAC29671CB000424F9B /* Info.plist */,
 				FC511DCE29687A8200424F9B /* MoneyFormatter.swift */,
+				FC511DD2296C79B500424F9B /* Budget.swift */,
 			);
 			path = POCTDD;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				FC511DB529671CB100424F9B /* POCTDDTests.swift */,
+				FC511DD0296C78CA00424F9B /* BudgetTests.swift */,
 			);
 			path = POCTDDTests;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 			files = (
 				FC511DA329671CAF00424F9B /* ViewController.swift in Sources */,
 				FC511D9F29671CAF00424F9B /* AppDelegate.swift in Sources */,
+				FC511DD3296C79B500424F9B /* Budget.swift in Sources */,
 				FC511DA129671CAF00424F9B /* SceneDelegate.swift in Sources */,
 				FC511DCF29687A8200424F9B /* MoneyFormatter.swift in Sources */,
 			);
@@ -272,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC511DD1296C78CA00424F9B /* BudgetTests.swift in Sources */,
 				FC511DB629671CB100424F9B /* POCTDDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
