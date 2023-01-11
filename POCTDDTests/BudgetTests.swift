@@ -17,14 +17,17 @@ final class BudgetTests: XCTestCase {
             let budget = Budget(total: amount)
             XCTAssertEqual(budget.weeklyRemaining, amount)
         }
-
     }
     
     func testBudgetContainsDailyRemaining() {
-
+        let amounts: [Decimal] = [0,7,14,70]
+        amounts.forEach{ amount in
+            let budget = Budget(total: amount)
+            XCTAssertEqual(budget.dailyRemaining, amount/7)
+        }
     }
     func testTransactionDeductsFromWeeklyRemaining() {
-
+        let budget = Budget
     }
     func testTransactionDeductsFromDailyRemaining() {
 
