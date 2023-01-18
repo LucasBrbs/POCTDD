@@ -19,6 +19,7 @@
 		FC511DCF29687A8200424F9B /* MoneyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DCE29687A8200424F9B /* MoneyFormatter.swift */; };
 		FC511DD1296C78CA00424F9B /* BudgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DD0296C78CA00424F9B /* BudgetTests.swift */; };
 		FC511DD3296C79B500424F9B /* Budget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DD2296C79B500424F9B /* Budget.swift */; };
+		FC511DD52978120D00424F9B /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC511DD42978120D00424F9B /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FC511DCE29687A8200424F9B /* MoneyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyFormatter.swift; sourceTree = "<group>"; };
 		FC511DD0296C78CA00424F9B /* BudgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetTests.swift; sourceTree = "<group>"; };
 		FC511DD2296C79B500424F9B /* Budget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Budget.swift; sourceTree = "<group>"; };
+		FC511DD42978120D00424F9B /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			children = (
 				FC511DB529671CB100424F9B /* POCTDDTests.swift */,
 				FC511DD0296C78CA00424F9B /* BudgetTests.swift */,
+				FC511DD42978120D00424F9B /* ViewControllerTests.swift */,
 			);
 			path = POCTDDTests;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC511DD52978120D00424F9B /* ViewControllerTests.swift in Sources */,
 				FC511DD1296C78CA00424F9B /* BudgetTests.swift in Sources */,
 				FC511DB629671CB100424F9B /* POCTDDTests.swift in Sources */,
 			);

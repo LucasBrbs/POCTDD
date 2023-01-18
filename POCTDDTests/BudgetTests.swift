@@ -27,9 +27,19 @@ final class BudgetTests: XCTestCase {
         }
     }
     func testTransactionDeductsFromWeeklyRemaining() {
-        let budget = Budget
+        let amounts: [Decimal] = [0,1,2]
+        amounts.forEach{ amount in
+            let budget = Budget(total: 10)
+            budget.addTransaction(amount: amount, timestamp: Date())
+            XCTAssertEqual(budget.weeklyRemaining, 10 - amount)
+        }
     }
     func testTransactionDeductsFromDailyRemaining() {
-
+        let amounts: [Decimal] = [0,1,2]
+        amounts.forEach{ amount in
+            let budget = Budget(total: 70)
+            budget.addTransaction(amount: amount, timestamp: Date())
+            XCTAssertEqual(budget.dailyRemaining, 70/7 - amount)
+        }
     }
 }
